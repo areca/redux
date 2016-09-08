@@ -11,4 +11,7 @@ $ npm install --save redux@1.0.0-rc react-redux
 $ npm install --save-dev redux-devtools
 3. Create directory structure  
 4. Enable devtools (by modifying webpack.config.js)
-5.
+5. Create App containers  
+6. Create actions and action creators  
+7. Create reducers  
+8. Build UI  
