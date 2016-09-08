@@ -1,5 +1,5 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "friendlist",
   "version": "1.0.0",
   "description": "Boilerplate for ReactJS project with hot code reloading",
   "scripts": {
@@ -16,6 +16,7 @@
     "eslint-plugin-react": "^3.1.0",
     "extract-text-webpack-plugin": "^0.8.2",
     "html-webpack-plugin": "^1.6.1",
+    "nodeman": "^1.1.2",
     "react-hot-loader": "^1.2.7",
     "redux-devtools": "^1.0.2",
     "style-loader": "^0.12.3",

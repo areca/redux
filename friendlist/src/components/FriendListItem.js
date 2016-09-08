@@ -15,7 +15,7 @@ export default class FriendListItem extends Component {
     return (
       <li className={styles.friendListItem}>
         <div className={styles.friendInfos}>
-          <div><span>{this.props.name}</span></div>
+          <div><span>{this.props.name}hjkjh</span></div>
           <div><small>xx friends in common</small></div>
         </div>
         <div className={styles.friendActions}>
