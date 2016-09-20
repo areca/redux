@@ -5,4 +5,4 @@ import Main from './components/Main';
 //Import css
 import css from './styles/style.styl';
 
-render(<Main/>, document.getElementById('root'));
+render(<Main><p>hello</p></Main>, document.getElementById('root'));
