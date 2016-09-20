@@ -2,8 +2,7 @@ A simple photo app that will simplify the core ideas behind Redux, React Router 
 Tut from https://learnredux.com/  
 
 Tech:  
-Node (>5.x)
-React
-Webpack
-
- 
+Node (>5.x)  
+React  
+Stylus
+Webpack  
