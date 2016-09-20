@@ -5,4 +5,5 @@ Tech:
 Node (>5.x)  
 React  
 Stylus
-Webpack  
+Webpack
+Sentry for error tracking 
