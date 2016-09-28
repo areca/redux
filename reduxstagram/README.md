@@ -4,6 +4,6 @@ Tut from https://learnredux.com/
 Tech:  
 Node (>5.x)  
 React  
-Stylus
-Webpack
+Stylus  
+Webpack  
 Sentry for error tracking 
