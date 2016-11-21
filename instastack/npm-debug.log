@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/kudret/.nvm/versions/node/v6.9.1/bin/node',
+1 verbose cli   '/home/kudret/.nvm/versions/node/v6.9.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'server' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'preserver', 'server', 'postserver' ]
+5 info lifecycle instastack@1.0.0~preserver: instastack@1.0.0
+6 silly lifecycle instastack@1.0.0~preserver: no script for preserver, continuing
+7 info lifecycle instastack@1.0.0~server: instastack@1.0.0
+8 verbose lifecycle instastack@1.0.0~server: unsafe-perm in lifecycle true
+9 verbose lifecycle instastack@1.0.0~server: PATH: /home/kudret/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/node-gyp-bin:/home/kudret/git-workspace/redux/instastack/node_modules/.bin:/usr/local/heroku/bin:/home/kudret/.nvm/versions/node/v6.9.1/bin:/home/kudret/bin:/home/kudret/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kudret/applications/Android/Sdk/tools:/home/kudret/applications/jdk1.8.0_111/bin
+10 verbose lifecycle instastack@1.0.0~server: CWD: /home/kudret/git-workspace/redux/instastack
+11 silly lifecycle instastack@1.0.0~server: Args: [ '-c', 'webpack && babel-node server.js' ]
+12 silly lifecycle instastack@1.0.0~server: Returned: code: 255  signal: null
+13 info lifecycle instastack@1.0.0~server: Failed to exec server script
+14 verbose stack Error: instastack@1.0.0 server: `webpack && babel-node server.js`
+14 verbose stack Exit status 255
+14 verbose stack     at EventEmitter.<anonymous> (/home/kudret/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/kudret/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid instastack@1.0.0
+16 verbose cwd /home/kudret/git-workspace/redux/instastack
+17 error Linux 4.4.0-47-generic
+18 error argv "/home/kudret/.nvm/versions/node/v6.9.1/bin/node" "/home/kudret/.nvm/versions/node/v6.9.1/bin/npm" "run" "server"
+19 error node v6.9.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error instastack@1.0.0 server: `webpack && babel-node server.js`
+22 error Exit status 255
+23 error Failed at the instastack@1.0.0 server script 'webpack && babel-node server.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the instastack package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack && babel-node server.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs instastack
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls instastack
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
