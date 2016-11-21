@@ -37,4 +37,3 @@ function mapDispatchToProps(dispatch) {
 }
 
 export const HomeContainer = connect(mapStateToProps, mapDispatchToProps)(Home);
- 
