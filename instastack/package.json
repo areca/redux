@@ -1,0 +1,12 @@
+{
+  "name": "instastack",
+  "version": "1.0.0",
+  "description": "an Instagram-like App with Node.js, React, Redux and FileStack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
